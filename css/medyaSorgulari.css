@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .login a,.uyeOl a{width: 100%}
+    .uyeOl{margin-bottom: 5px}
+}
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .uyeOl{margin : 0 5px;}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
