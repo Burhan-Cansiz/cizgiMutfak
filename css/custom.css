@@ -8,7 +8,7 @@
        url('../lib/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 :root {
-    --temaBg:linear-gradient(-19deg,#1f1b1b 0,#c42482 27%,#ab217f 45%,#671878 75%,#4a1475 100%);
+    --temaBg:#6c757d!important;
     --temaColor: white;
 }
 
