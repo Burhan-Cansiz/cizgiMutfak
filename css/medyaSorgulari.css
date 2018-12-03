@@ -1,7 +1,11 @@
+@media (max-width: 576px) {
+    .sonEklenenler .card-img-top{height: 155px}
+}
 @media (max-width: 768px) {
     .login a,.uyeOl a{width: 100%}
     .uyeOl{margin-bottom: 5px}
 }
+
 @media (min-width: 576px) {
 
 }
