@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-    .sonEklenenler .card-img-top{height: 155px}
+    .sonEklenenler .card-img-top{max-height: 155px}
 }
 @media (max-width: 768px) {
     .login a,.uyeOl a{width: 100%}
