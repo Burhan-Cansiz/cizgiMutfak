@@ -63,6 +63,6 @@
 
 body{overflow-y: scroll;letter-spacing: -1px}
 .bolumBaslik .p-2{background: var(--temaBg);color: var(--temaColor);font-size: medium }
-.bolumBaslik hr{background: var(--temaBg);height: 1px}
-
+.bolumBaslik hr{background: var(--temaBg);height: 1px;margin-top: 1px}
+.bgTema{background: var(--temaBg)!important}
 .slayder,header{background: url('../img/global/slayderBg.png')}
