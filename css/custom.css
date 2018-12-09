@@ -66,3 +66,5 @@ body{overflow-y: scroll;letter-spacing: -1px}
 .bolumBaslik hr{background: var(--temaBg);height: 1px;margin-top: 1px}
 .bgTema{background: var(--temaBg)!important}
 .slayder,header{background: url('../img/global/slayderBg.png')}
+.kategoriMenu ul ul{display: none}
+.kategoriMenu .aktif>ul{display: block}
