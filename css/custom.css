@@ -47,7 +47,7 @@
 }
 
 /*Klaslar*/
-
+.bg-Gri{background: #e9ecef}
 /*Klaslar*/
 
 /*Bootstrap reset*/
@@ -67,4 +67,4 @@ body{overflow-y: scroll;letter-spacing: -1px}
 .bgTema{background: var(--temaBg)!important}
 .slayder,header{background: url('../img/global/slayderBg.png')}
 .kategoriMenu ul ul{display: none}
-.kategoriMenu .aktif>ul{display: block}
+

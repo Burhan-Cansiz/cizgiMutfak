@@ -9,7 +9,7 @@
         @import 'lib/glyphicons.css';
     </style>
     <link rel="stylesheet" href="css/custom.css?v=09.12.18.1">
-    <link rel="stylesheet" href="css/medyaSorgulari.css?v=09.12.18.1">
+    <link rel="stylesheet" href="css/medyaSorgulari.css?v=09.12.18.3">
     <title>Çizgi mutfak</title>
 </head>
 <body> 
@@ -21,13 +21,13 @@
             <a class="navbar-brand" href="./">ÇM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="./">Anasayfa</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#" data-toggle="modal" data-target=".kategoriler">Ürünlerimiz</a></li>
-                </ul>
+                
+                
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item uyeOl"></li>
+                    <li class="nav-item uyeOl"><a data-toggle="modal" data-target="#uyeOlForm" class="btn btn-sm btn-link text-white rounded-0" href="#">Anasayfa</a></li>
+                    <li class="nav-item uyeOl"><a data-toggle="modal" data-target="#uyeOlForm" class="btn btn-sm btn-link text-white rounded-0" href="#">Ayın ürünleri</a></li>
+                    <li class="nav-item uyeOl"><a data-toggle="modal" data-target="#uyeOlForm" class="btn btn-sm btn-link text-white rounded-0" href="#">Referanslarımız</a></li>
                     <li class="nav-item uyeOl"><a data-toggle="modal" data-target="#uyeOlForm" class="btn btn-sm btn-light rounded-0" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Üyeol</a></li>
                     <li class="nav-item login"><a data-toggle="modal" data-target="#loginForm" class="btn btn-sm btn-light rounded-0" href="index.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Oturum aç</a></li>
                 </ul>
@@ -35,7 +35,7 @@
         </nav>        
     </div>   
 </header>
-<!--Header.-->    
+<!--Header.-->   
 
 <!--Slayder-->
 <section class="carousel slide slayder mb-3" data-ride="carousel">
@@ -59,25 +59,11 @@
     </div>
 </section>
 
-<div class="modal fade kategoriler" tabindex="-1" role="dialog" aria-labelledby="modl" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-        <div class="container">
-            <div class="row"> 
-                <ul class="col-12 nav nav-pills mb-2" role="tablist">
-                    <li class="nav-item"><a class="bgTema nav-link active btn-sm rounded-0" data-toggle="pill" href=".tarifler" role="tab" aria-controls="pills-home" aria-selected="true"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp; &nbsp;Kategoriler</a></li>
-                </ul>
-                <a href="#" class="col-6">Banyo dolapları</a>
-                <a href="#" class="col-6">Banyo dolapları</a>
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
+
 
 <div class="container">
     <div class="row">
-        <aside class="col-12 col-md-12 col-lg-3 bg-light kategoriMenu">
+        <aside class="col-12 col-md-12 col-lg-3 pb-2 bg-light kategoriMenu">
             
             <div class="card mb-2 mt-2">
                 <div class="card-body">
@@ -112,10 +98,6 @@
                             </ul>
                         </li>
                         <li class=""><h5>İndirime girenler</h5></li>
-
-
-
- 
                     </ul>
                 </div>
             </div>    
@@ -123,7 +105,7 @@
         </aside>
         <section class="col-md-12 col-lg-9">
             <div class="row sonEklenenler">
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -131,7 +113,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -139,7 +121,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -147,7 +129,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -155,7 +137,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -163,7 +145,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="col-12 col-sm-6 col-md-4 mt-3">
+                <a href="urunDetay.html" class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img-top" src="./img/urunler/1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -171,12 +153,6 @@
                         </div>
                     </div>
                 </a>
-
-
-
-
- 
-
             </div>
         </section>
     </div>
