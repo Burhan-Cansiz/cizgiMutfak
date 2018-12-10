@@ -18,17 +18,24 @@
 <header class="pt-4 pb-4">
     <div class="container">
         <nav class="container navbar navbar-expand-md bg-secondary navbar-dark rounded">
-            <a class="navbar-brand" href="index.html">ÇM</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <a data-toggle="modal" data-target=".xsUrunlerMenu" class="btn btn-sm btn-link text-white" href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &nbsp; Ürünler</a>
+               <span class="navbar-toggler-icon"></span>
+ 
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-block">
                         <a class="btn btn-sm btn-link text-white" href="index.html">Ansayfa</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-block">
+                        <a data-toggle="modal" data-target=".xsUrunlerMenu" class="btn btn-sm btn-link text-white" href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &nbsp; Ürünler</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
                         <a data-toggle="modal" data-target=".xsUrunlerMenu" class="btn btn-sm btn-link text-white" href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &nbsp; Ürünler</a>
                     </li>
                     <li class="nav-item uyeOl">
@@ -173,8 +180,7 @@
 
 
 
-
-
+<!--Xs menü-->
 <div class="modal fade xsUrunlerMenu" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -215,7 +221,7 @@
     </div>
   </div>
 </div>
-    
+<!--Xs menü-->    
     
     
 <!--Bootstrap-->
