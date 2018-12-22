@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+    .sonEklenenler .card-img-top{max-height: 155px}
+}
+@media (max-width: 768px) {
+    .mobil-mb-3{margin-bottom: 1rem!important;}
+    .login a,.uyeOl a{width: 100%}
+    .uyeOl{margin-bottom: 5px}
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .uyeOl{margin : 0 5px;}
+}
+
+@media (min-width: 992px) {
+    .kategoriMenu .aktif>ul{display: block}
+}
+
+@media (min-width: 1200px) {
+
+}
