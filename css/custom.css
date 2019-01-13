@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../lib/fonts/glyphicons-halflings-regular.eot');
+  src: url('../lib/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../lib/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('../lib/fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../lib/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../lib/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+:root {
+    --bg-tema:gray;
+    --text-tema: white;
+}
+
+/*Klaslar*/
+.width54{width: 54px}
+.bgAqua{background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 50%,#fff),linear-gradient(70deg,#eaf5ff 32%,#f6fff8)}
+.borderT4{border-top: 4px solid var(--bg-tema)};
+/*Klaslar*/
+
+/*Bootstrap reset*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{background: var(--bg-tema);}
+.navbar-toggler{font-size: medium}
+/*Bootstrap reset.*/
+
+.sag ul ul{display: none}
+body{overflow-y: scroll;letter-spacing: -1px}
+.bolumBaslik .p-2{color: black;font-size: large }
+.bolumBaslik hr{background: var(--bg-tema);height: 1px;margin-top: 1px}
+.cursorPointer{cursor: pointer}
+
+.sonEklenenler a .card-title,
+.benzerYazilar a .card-title{
+    background: white;
+    padding: 9px;
+    height: 51px;
+    overflow: hidden;
+    margin-top: -35px
+}
+#slaytKontrol,header{background: url('../img/global/slayderBg.png')}
